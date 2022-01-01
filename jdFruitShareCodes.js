@@ -8,25 +8,7 @@
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
 let FruitShareCodes = [
    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '35fcfda6d3af48e7afe79f5e18a39e55@5a41b6db624346cdbe347b61279fda8f@3fa4d41fe66e47bd8a9549e33e3b9b54@5dc8a7b9f4544a8ca79f8cf62d0c7623@4918db5a466c4332843c75064a5a3880@9b8419ddb29240468d06edfd61fa642e',
+  '64a194a6d90b40bfac8810e7eaf7a38b@b2eea83aa5ed45ed860f00d35e4d0ae6@32ca537226f8486d8ef33419914c62e7',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '35fcfda6d3af48e7afe79f5e18a39e55@5a41b6db624346cdbe347b61279fda8f@3fa4d41fe66e47bd8a9549e33e3b9b54@5dc8a7b9f4544a8ca79f8cf62d0c7623@4918db5a466c4332843c75064a5a3880',
+  '64a194a6d90b40bfac8810e7eaf7a38b@b2eea83aa5ed45ed860f00d35e4d0ae6@32ca537226f8486d8ef33419914c62e7',
  ]
-// 判断github action里面是否有水果互助码
-if (process.env.FRUITSHARECODES) {
-  if (process.env.FRUITSHARECODES.indexOf('&') > -1) {
-    console.log(`您的东东农场互助码选择的是用&隔开\n`)
-    FruitShareCodes = process.env.FRUITSHARECODES.split('&');
-  } else if (process.env.FRUITSHARECODES.indexOf('\n') > -1) {
-    console.log(`您的东东农场互助码选择的是用换行隔开\n`)
-    FruitShareCodes = process.env.FRUITSHARECODES.split('\n');
-  } else {
-    FruitShareCodes = process.env.FRUITSHARECODES.split();
-  }
-} else if (process.env.JD_COOKIE) {
-  console.log(`您secret里面未提供助力码，优先进行自己账号内互助，然后再给脚本内置的码进行助力，请知晓！`)
-}
-for (let i = 0; i < FruitShareCodes.length; i++) {
-  const index = (i + 1 === 1) ? '' : (i + 1);
-  exports['FruitShareCode' + index] = FruitShareCodes[i];
-}
