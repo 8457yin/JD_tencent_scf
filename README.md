@@ -1,32 +1,20 @@
-## 禁止Star/Fork!!
-## 请勿使用Action运行脚本!
-## 有条（科学）件（上网）的可以 [点此加入组织](https://t.me/jd_zero_205)  
-
 ## 本仓库部分脚本已加入JDHelloWorld大佬助力池，默认加入助力池互助
-## 由于限制TG群内成员提交助力码，请需要互助的 [加入组织](https://t.me/jd_zero_205)，获取使用[教程](https://t.me/jd_zero205_tz/53)
 ## 不需要助力池请添加环境变量，变量名：`JD_JOIN_ZLC`，变量值：`false`  
-
-## 请勿直接fork！！云函数用户先按照下方教程建立私库！！！
 ## 已经创建公开仓库的请点击仓库右上角`Setting`，拉到页面最下方，点击`Change visibility`，选择`Make private`，填入黑体仓库名称进行确认!
-
-### 方式一(如果有一定github基础，十分建议直接方式二)
-**建议阅读@hshx123大佬的[教程](https://杏铃.top/teach/jd.html)**
-### 方式二
+### 方式
 * 有能力用户可以进行尝试,通过任何方法都可以,在空仓库内(保证分支名称为`main`),按需运行一次 https://github.com/Ca11back/doge-template 的action即可
 * 第二种:直接clone一个`scf2`分支(名字需要为`main`,clone哪个取决于你要用的部署方式)
 
-## 自动同步本仓库脚本教程：[点此查看](https://github.com/zero205/JD_tencent_scf/blob/main/backUp/reposync.md)  
+## 自动同步本仓库脚本教程：[点此查看](https://github.com/8457yin/JD_tencent_scf/blob/main/backUp/reposync.md)  
 
 # 使用教程
 
-* > 【青龙】拉取仓库命令：`ql repo https://github.com/zero205/JD_tencent_scf.git "jd_|jx_|getJDCookie"  "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"`
-  * > 上面命令拉取错误的使用这个：`ql repo https://ghproxy.com/https://github.com/zero205/JD_tencent_scf.git "jd_|jx_|getJDCookie"  "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"`
+* > 【青龙】拉取仓库命令：`ql repo https://github.com/8457yin/JD_tencent_scf.git "jd_|jx_|getJDCookie"  "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"`
+  * > 上面命令拉取错误的使用这个：`ql repo https://ghproxy.com/https://github.com/8457yin/JD_tencent_scf.git "jd_|jx_|getJDCookie"  "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"`
 
-* > 腾讯云函数部署建议阅读@hshx123大佬的[教程](https://66ccff.work/teach/jd.html)【推荐】.[旧教程](./backUp/tencentscf.md)【备用】
-
-* > [elecV2P](https://github.com/elecV2/elecV2P) 部署【随缘维护，建议转战➟[Docker](https://www.runoob.com/docker/windows-docker-install.html) [青龙](https://github.com/whyour/qinglong)】
+//
     * 安装教程：[点此查看](https://github.com/elecV2/elecV2P-dei/blob/master/docs/01-overview.md)  
-    * 订阅任务：`https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_task.json`
+    * 订阅任务：`https://ghproxy.com/https://raw.githubusercontent.com/8457yin/JD_tencent_scf/main/jd_task.json`
     * elecV2P京东CK、通知填写格式等相关补充说明：[点此查看](./backUp/elecV2P.md)  
 
 - 获取京东cookie教程可参考：
