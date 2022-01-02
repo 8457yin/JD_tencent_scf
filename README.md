@@ -1,4 +1,3 @@
-## 本仓库部分脚本已加入JDHelloWorld大佬助力池，默认加入助力池互助
 ## 不需要助力池请添加环境变量，变量名：`JD_JOIN_ZLC`，变量值：`false`  
 ## 已经创建公开仓库的请点击仓库右上角`Setting`，拉到页面最下方，点击`Change visibility`，选择`Make private`，填入黑体仓库名称进行确认!
 ### 方式
